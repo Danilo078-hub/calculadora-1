@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>calculadora
+    <div class="calculadora">
+        <input type="text" class="tela" id="tela" disabled>
+        <div class="botoes">
+            <button onclick="limpartela()">C</button>
+            <button onclick="adicionarnumero('/')">/</button>
+            <button onclick="adicionarnumero('%')">%</button>
+            <button onclick="apagarultimo()">X</button>
+            <button onclick="adicionarnumero('7')">7</button>
+            <button onclick="adicionarnumero('8')">8</button>
+            <button onclick="adicionarnumero('9')">9</button>
+            <button onclick="adicionarnumero('*')">*</button>
+            <button onclick="adicionarnumero('4')">4</button>
+            <button onclick="adicionarnumero('5')">5</button>
+            <button onclick="adicionarnumero('6')">6</button>
+            <button onclick="adicionarnumero('-')">-</button>
+            <button onclick="adicionarnumero('1')">1</button>
+            <button onclick="adicionarnumero('2')">2</button>
+            <button onclick="adicionarnumero('3')">3</button>
+            <button onclick="adicionarnumero('+')">+</button>
+            <button onclick="adicionarnumero('0')" style="grid-column: span 2">0</button>
+            <button onclick="adicionarnumero('.')">.</button>
+            <button onclick="calcular('=')">=</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
